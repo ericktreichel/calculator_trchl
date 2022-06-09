@@ -1,0 +1,55 @@
+body {
+  /* background-color: rgb(135, 135, 135); */
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  background: linear-gradient(
+    -45deg,
+    rgb(16, 57, 70),
+    #2f2e2f,
+    #2e1c2b,
+    #6f2842
+  );
+  background-size: 350% 350%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 60px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 6px;
+  border: 2px solid white;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #666666;
+  color: aliceblue;
+  margin-bottom: 60px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn {
+  justify-self: center;
+  text-align: center;
+}
+
+.calc {
+  opacity: 0.35;
+  max-width: 20%;
+  display: block;
+  margin: 0 auto;
+}
